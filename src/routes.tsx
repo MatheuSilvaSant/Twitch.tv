@@ -15,10 +15,10 @@ const { Navigator, Screen } = createBottomTabNavigator();
 const Routes: React.FC = () => (
   <NavigationContainer>
     <Navigator>
-        <Screen name="Following" component={View}></Screen>
-        <Screen name="Discover" component={View}></Screen>
-        <Screen name="Browser" component={View}></Screen>
-        <Screen name="Esports" component={View}></Screen>
+        <Screen name="Following" component={Following}></Screen>
+        <Screen name="Discover" component={ComingSoon}></Screen>
+        <Screen name="Browser" component={ComingSoon}></Screen>
+        <Screen name="Esports" component={ComingSoon}></Screen>
     </Navigator>
   </NavigationContainer>
 );
