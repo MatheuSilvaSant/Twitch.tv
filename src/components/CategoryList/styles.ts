@@ -8,7 +8,7 @@ import colors from '../../styles/colors';
   `;
 
   export const CategoryContainer = styled.TouchableOpacity`
-    background: purple;
+    
     margin-right: 10px;
   `;
 
@@ -21,7 +21,7 @@ import colors from '../../styles/colors';
     margin-top: 5px;
     max-width: 98px;
     color: ${colors.black};
-    font-family: robot_700;
+    font-family: roboto_700;
     font-size: 13.5px;
   `;
 
